@@ -31,5 +31,7 @@ public class Main {
         int quantidadeParaRemover = scanner.nextInt();
         produto.removerProdutos(quantidadeParaRemover);
         System.out.println("Atualização: "+produto);
+
+        scanner.close();
     }
 }
